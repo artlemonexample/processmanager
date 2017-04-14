@@ -85,7 +85,7 @@
         cell.detailTextLabel.textColor = stage.stageColor;
     } else {
         if (stage.startStageDate != nil && stage.stopStageDate != nil) {
-            cell.detailTextLabel.textColor = UIColor.greenColor;
+            cell.detailTextLabel.textColor = UIColor.darkGrayColor;
         } else {
             cell.detailTextLabel.textColor = UIColor.redColor;
         }
