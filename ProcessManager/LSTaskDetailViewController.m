@@ -112,7 +112,7 @@
 }
 
 - (void)makeButtonStart {
-    [self.actionButton setTitle:@"Start" forState:UIControlStateNormal];
+    [self.actionButton setTitle:@"Начать" forState:UIControlStateNormal];
     [self.actionButton setTintColor:UIColor.greenColor];
 }
 
