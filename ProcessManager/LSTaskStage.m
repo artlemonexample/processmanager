@@ -52,7 +52,7 @@
 - (UIColor*)stageColor {
     UIColor *result = [UIColor blackColor];
     if (self.stopStageDate == nil) {
-        result = UIColor.yellowColor;
+        result = UIColor.brownColor;
     } else {
         result = UIColor.greenColor;
     }
