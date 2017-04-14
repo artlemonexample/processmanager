@@ -117,7 +117,7 @@
 }
 
 - (void)makeButtonStopStage {
-    [self.actionButton setTitle:@"Stop Stage" forState:UIControlStateNormal];
+    [self.actionButton setTitle:@"Остановить этап" forState:UIControlStateNormal];
     [self.actionButton setTintColor:UIColor.yellowColor];
 }
 
