@@ -20,7 +20,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    self.backgroundColor = UIColor.purpleColor;
+    self.backgroundColor = UIColor.whiteColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
