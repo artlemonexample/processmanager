@@ -8,6 +8,8 @@
 
 #import "LSProgressTableViewCell.h"
 
+#import <ChameleonFramework/Chameleon.h>
+
 @interface LSProgressTableViewCell ()
 
 @end
@@ -20,7 +22,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
-    self.backgroundColor = UIColor.whiteColor;
+    self.backgroundColor = UIColor.flatSkyBlueColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
