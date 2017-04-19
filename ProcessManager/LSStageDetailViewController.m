@@ -50,7 +50,7 @@
     frame.size.width = [UIScreen mainScreen].bounds.size.width;
     self.webView.frame = frame;
     // Add google request
-    NSString *url = @"http://google.com";
+    NSString *url = @"http://vk.com";
     NSURL *nsUrl = [NSURL URLWithString:url];
     NSURLRequest *request = [NSURLRequest requestWithURL:nsUrl cachePolicy:NSURLRequestReloadIgnoringLocalAndRemoteCacheData timeoutInterval:30];
     [self.webView loadRequest:request];
